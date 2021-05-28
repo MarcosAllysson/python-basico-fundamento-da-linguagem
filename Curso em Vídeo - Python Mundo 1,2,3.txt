@@ -1,0 +1,415 @@
+MUNDO 1
+Aula 1 - Porque ser programador:
+     Resolver problemas mais rápido
+     Mais criatividade. Espírito de comunidade.
+     
+
+Aula 2 - Pra que serve o python:
+     Guido Van Hossum - queria resolver problema em C e criar algo mais simples: PYTHON
+     O nome era por conta de um programa de televisão, só depois virou python de fato
+     Microsoft, google, linux e outras grandes usam python
+
+     Características:
+          Linguagem de propósito geral: posso usar pra tudo
+          Fácil e intuitivo
+          Multiplataforma: funciona em múltiplas plataformas
+          Batteries included - pacotes já vem instalados
+          Livre
+          Organizada
+          Orientada a objetos
+          Muitas bibliotecas
+
+     Principais áreas:
+          Inteligência artificial               
+          Biotecnologia
+          Computação 3D
+
+     Quem usa python?
+          BitTorrent
+          Globo
+          Google
+          Youtube
+          Nasa
+
+
+Aula 3 - Instalando o python e o IDLE: 
+     IDE - é um interprete, no qual faz a tradução da linguagem humana pra máquina entender
+     Zen of Python -> no terminal do python, executar: import this.
+     IDLE - é o terminal de forma mais ajudativa, cores.
+
+
+Aula 4 - Primeiros comandos em python3: 
+     Toda mensagem em python - entre aspas simples
+     Às vezes a vírgula pode funcionar melhor que o sinal de +
+          Exemplo: print('ola', 5) -> print normal
+                   print('ola' + 5) -> erro
+     Toda variável em python é um objeto
+     Toda variável é ideal que seja declarado em minúscula
+     Pra ler algo do usuário -> input().
+
+
+Aula 5 - Instalando o pycharm e o Qpython3: 
+     Instalação do pycharm no linux e Qpython3 no celular.
+
+
+Aula 6 - Tipos primitivos e saída de dados:
+     Principais:
+          - int(), float(), bool, str()
+     Tipo:
+          - type()
+
+
+Aula 7 - Operadores aritméticos:
+     +, -, *, /, **, //, %
+          ** -> potência
+          // -> divisão inteira
+          % -> resto da divisão
+     Precedência (ordem) -> (), **, *, /, //, %, +, -
+     Imprimir X casas após a vírgula -> {:.2f}.format(x)
+          Ou seja, 2 casas após a vírgula.
+     .format(x, y), end=' ', faz com que ao final da linha o print() não quebre linha.
+     \n -> quebra linha.
+     \t -> tabulação.
+
+
+Aula 8 - Utilizando módulos:
+     Pra incluir algo, devo importart, ou seja, import()
+     Pra não importar tudo, from algo import x
+     Exemplo, MATH, vai importar:
+          - ceil
+          - floor
+          - trunc
+          - pow
+          - sqrt
+          - factorial
+
+          -> from math import ceil, vai importar apenas módulo ceil do Math.
+
+     
+Aula 9 - Manipulando texto:
+     String - cadeira de texto
+     Fatiamento de string, pega sempre até o penúltimo - frase[9:13], de 9 até o 12.
+     Frase[:13], do começo até o 13° índice da string
+     Frase[15:], do 15° índice até o último índice.
+     Frase[9::3], do 9°, até o final, pulando de 3 em 3
+     
+     Análise:
+          - len(), comprimento da frase
+          - count('X'), conta quantas vezes X coisa aparece na string
+               - count('X',0,13), começando no caractere 0, até o 13°, conta os X
+          - find('ABC'), procura posição ABC. Se não encontrar, retorna -1
+          - 'ABC' in frase, retorna True ou False se encontrar ou não
+
+     Transformação:
+          - replace('ABC', 'CBA'), substituição.
+          - upper(), string em maisúsculo
+          - lower(), string em minúsculo
+          - capitalize(), primeira letra da string em maisúsculo
+          - title(), primeiro letra de cada palavra da sting em maisúsculo
+          - strip(), remove todos os espaços em branco do começo e do final da string
+          - rstrip(), remove espaços em branco do lado direito da string
+          - lstrip(), remove espaços em branco do lado esquerda da string
+
+     Divisão:
+          - split(), quebra a string em determinado espaço
+
+     Junção:
+          - '-'.join(), juntar uma coisa na outra.
+
+
+Aula 10 - Condições em Pytho (if..else):
+     Estrutura se, senão - if, else
+     Python não tem operador ternário.
+     
+
+
+Aula 11 - Cores no Terminal:
+     Padrão ANSI - escape sequence
+     \033[style; text; or background m
+     Exemplo: \033[0;33;44m 
+     
+     Style - principais são:
+          0 - sem estilo
+          1 - negrito
+          4 - underline - soblinhado
+          7 - negative
+
+     Text:
+          30 - branco
+          31 - vermelho
+          32 - verde
+          33 - amarelo
+          34 - azul
+          35 - roxo
+          36 - azul claro
+          37 - cinza
+
+     Bakckground:
+          40 - branco
+          41 - vermelho
+          42 - verde
+          43 - amarelo
+          44 - azul
+          45 - roxo
+          46 - azul claro
+          47 - cinza
+
+
+
+
+
+
+MUNDO 2
+Aula 11 - Dicas e regras:
+     Sempre fazer os exercícios e anotar.
+     Estudar em grupo
+     Ensinar alguém
+     Não pular exercícios.
+     Não copiar respostas
+     Não desistir
+     
+
+Aula 12 - Condições aninhadas:
+     if ... , elif ... , else
+     If é obrigatório, mas elif e else são opcionais.
+
+
+Aula 13 - Repetições em Python (for):
+     Quando usar quando já sei o limite.
+
+     for X in range(começo, final):
+          faça Z...
+
+     for X in range(começo, final, passos):
+          faça Z...
+
+
+Aula 14 - Repetições em Python (while):
+     Ideal usar quando não sei quando parar.
+     Flag = condição de parada.
+     
+
+Aula 15 - Interrompendo repetições while:
+     Python tem somente for e while, diferente de outras linguagens que têm o do-while
+     Break - interrompe o programa em determinado lugar do programa
+     while True: executa código indeterminadamente se não usar break ou condição de parada
+     f string, usado após versão 3.6 do python: print(f'Something: {variable}')
+          Assim, não preciso mais do format, pois vais ser usado interpolação.
+        
+
+
+
+
+
+
+MUNDO 3
+Aula 16 - Tuplas:
+     Variável simples, recebe apenas 1 valor
+     Tupla ()
+     Tuplas = variáveis compostas, que podem armazenar vários valores.
+          Acessados por índices
+          São IMUTÁVEIS, ou seja, uma vez criado, não é possível fazer mudança.
+          Posso adicionar valores à tuplas de difentes tipos: int, str...
+          Pra apagar a tupla -> del(nome_tupla)
+
+     Alguns métodos:
+          - tupla.count('x') -> conta quantos 'x' aparecem na tupla
+          - tupla.index('x') -> printa em qual índice está o 'x'
+     
+
+Aula 17 - Listas:
+     Lista []
+     As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais (índices).
+     As listas são mutáveis, posso alterar um valor.
+
+     Alguns métodos:
+          - lista.append('x') -> adiciona um valor à lista
+          - lista.insert(0, 'x') -> adiciona um valor à lista em determinado índice
+          - lista.pop(indice) -> apaga um elemento da lista. Por padrão apaga o último.
+          - lista.remove('valor') -> apaga um elemento da lista indicando o valor.
+          - valores = list(range(0, 10)) -> cria uma lista com 10 índices
+          - lista.sort() -> ordena os valores da lista em ordem crescente
+               - lista.sort(reverse=True) -> ordena valores da lista em ordem decrescente  
+          - len(lista) -> retorna número de elementos da lista
+          - enumerate(list) -> posição e valor.
+
+     Quando copiar os valores de uma lista pra outra, o python gera uma conexão entre as listas:
+          teste = []
+          teste.append('Marcos')
+          teste.append(23)
+
+          galera = []
+          galera.append(teste[:])
+
+          teste[0] = 'Gustavo'
+          teste[1] = 40
+          galera.append(teste[:])
+     
+          print(galera)
+
+     Pra que a cópia da lista fique independente, declarar:
+          lista_copia.append(lista_original[:])
+
+     Assim, posso alterar os valores da lista sem alterar a lista original.
+
+
+Aula 19 - Dicionários:
+     Os dicionários são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves literais.
+     Dicionario = {} ou dicionario = dict()
+     dicionario = {"chave": "valor", "chave": "valor"}
+
+     Métodos mais comuns:
+          dicionario.values() -> retorna os valores do dicionário
+          dicionario.keys() -> retonar as chaves do dicionário
+          dicionario.items() -> retona chaves e valores do dicionário
+          del dicionario['chave'] -> deleta valor do dicionário
+          dicionario.copy() -> faz a cópia. Pois o dicionario[:] não funciona com dict's.
+
+     Posso inclusive juntar tuplas, listas e dicionários.
+     Não preciso usar append, pois já é adicionado automaticamente:
+          dicionario['chave'] = 'valor'
+     
+
+Aula 20 / 21 - Funções:
+     Funções são trechos de código que podem ser executados em momentos diferentes de nossos códigos em Python.
+     Atrelado - relacionado à = ROTINA, coisas que são feitas constantemente
+          Exemplo: print(), len(), float(), int()...
+
+     def nome_funcao() - funções criadas de forma personalizada por mim.
+     Pra ser executada, basta chamar / invocar pelo nome da função.
+     Podem ou não receber parâmetros
+     
+
+     Empacotar parâmetros: 
+          def contador(* num): -> função que vai receber n parâmetros
+               print(num) -> imprime tupla de cada parâmetro recebido. E assim, faço algo
+
+
+     Interactive help:
+          - help() -> função interna do python
+               - Basta digitar nome: print. tem a explicação de todas as funções.
+          - help(print)..., no próprio arquivo .py também funciona. Além do terminal
+          - outra opção pra saber o que o método faz, é parar o mouse no nome do método.
+
+
+     Docstring:
+          - String de documentação
+          - Serve pra eu ver a documentação de um determinado método criado por outro dev
+          - Pra eu definir o manual da minha função, basta explicitar manual entre """ """
+          - def manual():
+               """ Manual da Minha Função """
+          - help(manual) -> vai imprimir manual da minha função.
+          - manual interativo que vai ser impresso com o método help() do python
+          - facilita pra eu catalogar o meu código pra ser mais entendível pra outra pessoa
+
+
+     Parâmetros opcionais:
+          - Se a função deixou explícito que recebe 3 parâmetros, caso seja enviado somente 2, eu posso deixar o 3° parâmetro como opcional:
+               - def somar(a, b, c=0): -> Nesse caso, parâmetro C recebe 0 por padrão.
+
+
+     Escopo de variáveis:
+          - local onde a variável vai existir
+          - se for declarada dentro da função, a variável só existirá dentro dela
+          - se for fora, todo o programa e métodos tem acesso à variável
+          - variável GLOBAL, e variável LOCAL
+          - global, palavra-chave do python que me permite usar a variável global, mesmo sendo chamado dentro de métodos e variáveis de mesmo nome.
+
+          def funcao():
+              global n1  # informo ao python utilizar a mesma variável global.
+              n1 = 4  # por mais que eu tenha atribuído valor, é ignorado por estou usando a variável global
+              print(f'Variável n1 dentro, vale {n1}. Pois é variável LOCAL, só existe dentro da função.')
+
+          n1 = 10
+          funcao()
+          print(f'Variável n1 fora, vale {n1}. Pois é variável GLOBAL, ou seja, existe fora dos métodos.')
+     
+          -> No qual ambas valerão 10.
+
+
+          - Existe também escopo de importação, por exemplo, ao importar um módulo que vai ser usado somente em determinada função, eu posso fazer a importação dentro da função.
+
+
+     Retornando valores:
+          - palavra-chave: return
+          - As funções podem ou não ter retorno
+          - útil quando eu quero personalizar o resultado
+
+
+     
+Aula 22 - Módulos e pacotes:
+     Surgiu no início da década de 60
+     Foco: facilitar a manutenção
+     Dividir um grande problema, em problemas pequenos
+     Nada mais é que separar minhas funções em outro arquivo.py e importá-lo
+          import nome_modulo
+
+          # No programa principal:
+          nome_modulo.def-name()
+
+     -> Ou seja, meu próprio módulo à parte.
+
+     Posso fazer a importação do módulo completa ou somente do que for necessário
+          Completa: import aula_22_uteis
+          Necessário: from aula_22_uteis import dobro, triplo, fatorial
+
+          RECOMENDAÇÃO: importar o módulo completo, pois se tiver outro módulo com função de mesmo nome, pode confundir o python em relação a execução do mesmo. 
+          OBS: por padrão, caso isso aconteça, o python executa a última chamada.
+
+
+     VANTAGENS:
+          - organização do código
+          - Facilidade na manutenção
+          - ocultação do código detalhado
+          - reutilização dos módulos em outros projetos
+
+
+
+     PACOTES ou bibliotecas em outras linguagens:
+          - A modularização ajuda até certo ponto, pois se eu tiver várias funções no meu módulo, o programa vai ficar sobrecarregado. Assim, surge o conceito de pacotes 
+          -> PASTA com módulos.
+               - Posso ter diferentes pacotes para tratar sobre números, data, strings, cores. Com isso, cada módulo fica responsável por uma coisa, e todos os meus módulos ficam no meu pacote.
+          - Só criar uma pasta dentro do projeto com o nome do meu pacote. De lá, importar
+               from nome_pacote import nome_modulo...
+
+          - Dentro de cada pacote tem que ter um arquivo chamado __init__.py
+               - Serve pra marcar diretórios no disco como um pacote python
+     
+     
+
+
+Aula 23 - Tratamento de erros:
+     Python permite tratar erros e criar respostas a essas exceções. Aprenda como usar a estrutura try except no Python de uma forma simples.
+     Erros = exceção
+          Comuns:
+               - ZeroDivisionError
+               - TypeError
+               - NameError
+               - IndexError
+               - KeyError
+               - ModuleNotFoundError
+               - ValueError
+               - EOFError
+               - Keyboardinterrupt
+               - OSError
+               - MemoryError
+               - ConnectionError
+               - RuntimeError
+               ***### LISTA: https://docs.python.org/3.8/library/exceptions.html
+
+     Toda exceção são filhos da classe Exception
+     Pra tratar: 
+          try:
+               tenta fazer isso
+          except:
+               se levantar exceção (erro).
+          else:
+               se deu tudo certo.
+          finally:
+               independente se der erro ou não, é executado.
+
+     Todo except pode ter seu próprio Exception a ser tratado durante execução do programa
+     Tendo assim:
+          try
+          vários exceptions
+          else e finally (opcional)

@@ -1,0 +1,9 @@
+Marcos;15
+Silva;21
+Pedro;87
+João;54
+Douglas;32
+Neto;12
+maria;32
+Fran;32
+Jose;56

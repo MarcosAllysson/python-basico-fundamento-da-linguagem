@@ -1,0 +1,5 @@
+print('===== 2° Desafio - Data Formadata ====')
+dia = input('Qual dia? ')
+mes = input('Qual mês? ')
+ano = input('Qual ano? ')
+print('Você nasceu no dia ' +dia+ ' de ' +mes+ ' de ' +ano+ '. Certo?')
