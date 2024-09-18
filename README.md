@@ -1,18 +1,20 @@
-# PYTHON 
+# PYTHON
 
-## Do básico a resolução de exercícios e projetos
-- Python é uma linguagem ultra moderna, utilizada por grandes empresas como Google, YouTube, Industrial Light & Magic, Globo e muitas outras. 
-- Fácil de aprender, com código limpo e organizado.
-- Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender. 
-- Curso criado pelo Prof. Gustavo Guanabara do Curso em Vídeo, me ajudou com uma temática divertida de vídeo-game para motivar o estudo, é dividido em mundos para facilitar o estudo.
+## From the basics to solving exercises and projects
 
-## Conteúdo / aprendizado
-- Primeiros passos com a linguagem Python
-- For e while
-- Condicionais (if-else)
-- Tuplas
-- Listas
-- Dicionários
-- Funções
-- Modularização (módulos e pacotes)
-- Tratamentos de erros.
+- Python is an ultra-modern language, used by large companies such as Google, YouTube, Industrial Light & Magic, Globo and many others.
+- Easy to learn, with clean and organized code.
+- Python is gaining more and more space, and it's time for you to learn.
+- Course created by Prof. Gustavo Guanabara from Curso em Vídeo, helped me with a fun video game theme to motivate studying, it is divided into worlds to make studying easier.
+
+## Content / learning
+
+- First steps with the Python language
+- For and while
+- Conditionals (if-else)
+- Tuples
+- Lists
+- Dictionaries
+- Functions
+- Modularization (modules and packages)
+- Error handling.
